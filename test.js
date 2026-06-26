@@ -2,7 +2,7 @@
 const express = require('express');
 const http = require('http');
 
-
+const app = express(); // Initialize express app
 
 app.get('/', (req, res) => res.send('Hello from Express App'));
 
